@@ -14,7 +14,6 @@ body {
   color: #2f3138;
   font-family: "Open Sans", sans-serif;
 }
-
 a {
   color: #C2E9F2;
   transition: 0.5s;
@@ -139,7 +138,6 @@ h6 {
 .section-with-bg {
   background-color: #f6f7fd;
 }
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -301,7 +299,7 @@ h6 {
 }
 
 .nav-menu li.buy-tickets a {
-  color: #fff;
+  color:#6C568C;
   background: none;
   padding: 7px 22px;
   border-radius: 50px;
@@ -660,7 +658,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  color: #000000;
+  color: #152b79;
   padding: 60px 0 40px 0;
   text-align: justify;
 }
@@ -682,28 +680,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #6C568C;
 }
 
-#about h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #000000;
-}
-
 #about p {
-  font-size: 14px;
-  margin-bottom: 20px;
-  color: #000000;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  color: #152b79;
 }
-.sectionsobremi {
+.sobremi {
 
 display: flex;
 
+
+
+}
+.resumen{
+font-size: 16px;
+font-family: "open sans";
+
 }
 
-
-.sobremigaleria{
+.fotoshirley{
   display: flex;
+
 }
 
 
@@ -712,7 +709,7 @@ display: flex;
 --------------------------------------------------------------*/
 
 #speakers {
-  padding: 50px 0 30px 0;
+  padding: 60px 0 10px 0;
 }
 
 #speakers .speaker {
